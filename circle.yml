@@ -6,7 +6,7 @@ test:
         CODE_SIGN_IDENTITY=
         PROVISIONING_PROFILE=
         -sdk iphonesimulator
-        -destination '019CFBB0-0086-44A7-AA41-D39182D9CE01'
+        -destination 'uuid=019CFBB0-0086-44A7-AA41-D39182D9CE01'
         -workspace MyWorkspace.xcworkspace
         -scheme "My Scheme"
         clean build test |
